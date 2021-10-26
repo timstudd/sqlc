@@ -2,9 +2,10 @@ package python
 
 import (
 	"fmt"
-	"github.com/kyleconroy/sqlc/internal/config"
 	"sort"
 	"strings"
+
+	"github.com/timstudd/sqlc/internal/config"
 )
 
 type importSpec struct {
