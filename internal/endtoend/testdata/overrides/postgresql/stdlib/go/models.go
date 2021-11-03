@@ -3,8 +3,8 @@
 package override
 
 import (
-	"github.com/kyleconroy/sqlc-testdata/pkg"
 	"github.com/lib/pq"
+	"github.com/timstudd/sqlc-testdata/pkg"
 )
 
 type Foo struct {

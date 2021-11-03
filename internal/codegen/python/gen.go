@@ -4,18 +4,19 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
-	"github.com/kyleconroy/sqlc/internal/codegen"
-	"github.com/kyleconroy/sqlc/internal/compiler"
-	"github.com/kyleconroy/sqlc/internal/config"
-	"github.com/kyleconroy/sqlc/internal/core"
-	"github.com/kyleconroy/sqlc/internal/inflection"
-	"github.com/kyleconroy/sqlc/internal/sql/ast"
-	"github.com/kyleconroy/sqlc/internal/sql/catalog"
 	"log"
 	"regexp"
 	"sort"
 	"strings"
 	"text/template"
+
+	"github.com/timstudd/sqlc/internal/codegen"
+	"github.com/timstudd/sqlc/internal/compiler"
+	"github.com/timstudd/sqlc/internal/config"
+	"github.com/timstudd/sqlc/internal/core"
+	"github.com/timstudd/sqlc/internal/inflection"
+	"github.com/timstudd/sqlc/internal/sql/ast"
+	"github.com/timstudd/sqlc/internal/sql/catalog"
 )
 
 type Constant struct {

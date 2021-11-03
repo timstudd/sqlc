@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/kyleconroy/sqlc/internal/sql/ast"
-	"github.com/kyleconroy/sqlc/internal/sql/astutils"
-	"github.com/kyleconroy/sqlc/internal/sql/catalog"
-	"github.com/kyleconroy/sqlc/internal/sql/sqlerr"
+	"github.com/timstudd/sqlc/internal/sql/ast"
+	"github.com/timstudd/sqlc/internal/sql/astutils"
+	"github.com/timstudd/sqlc/internal/sql/catalog"
+	"github.com/timstudd/sqlc/internal/sql/sqlerr"
 )
 
 func dataType(n *ast.TypeName) string {

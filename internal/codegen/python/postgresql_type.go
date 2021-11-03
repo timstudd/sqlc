@@ -1,10 +1,11 @@
 package python
 
 import (
-	"github.com/kyleconroy/sqlc/internal/compiler"
-	"github.com/kyleconroy/sqlc/internal/config"
-	"github.com/kyleconroy/sqlc/internal/sql/catalog"
 	"log"
+
+	"github.com/timstudd/sqlc/internal/compiler"
+	"github.com/timstudd/sqlc/internal/config"
+	"github.com/timstudd/sqlc/internal/sql/catalog"
 )
 
 func postgresType(r *compiler.Result, col *compiler.Column, settings config.CombinedSettings) string {
