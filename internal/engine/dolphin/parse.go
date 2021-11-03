@@ -10,9 +10,9 @@ import (
 	"github.com/pingcap/parser"
 	_ "github.com/pingcap/parser/test_driver"
 
-	"github.com/kyleconroy/sqlc/internal/metadata"
-	"github.com/kyleconroy/sqlc/internal/sql/ast"
-	"github.com/kyleconroy/sqlc/internal/sql/sqlerr"
+	"github.com/timstudd/sqlc/internal/metadata"
+	"github.com/timstudd/sqlc/internal/sql/ast"
+	"github.com/timstudd/sqlc/internal/sql/sqlerr"
 )
 
 func NewParser() *Parser {

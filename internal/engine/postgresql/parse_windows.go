@@ -1,3 +1,4 @@
+//go:build windows
 // +build windows
 
 package postgresql
@@ -6,8 +7,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/kyleconroy/sqlc/internal/metadata"
-	"github.com/kyleconroy/sqlc/internal/sql/ast"
+	"github.com/timstudd/sqlc/internal/metadata"
+	"github.com/timstudd/sqlc/internal/sql/ast"
 )
 
 func NewParser() *Parser {

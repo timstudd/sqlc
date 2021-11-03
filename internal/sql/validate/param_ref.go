@@ -3,9 +3,10 @@ package validate
 import (
 	"errors"
 	"fmt"
-	"github.com/kyleconroy/sqlc/internal/sql/ast"
-	"github.com/kyleconroy/sqlc/internal/sql/astutils"
-	"github.com/kyleconroy/sqlc/internal/sql/sqlerr"
+
+	"github.com/timstudd/sqlc/internal/sql/ast"
+	"github.com/timstudd/sqlc/internal/sql/astutils"
+	"github.com/timstudd/sqlc/internal/sql/sqlerr"
 )
 
 func ParamRef(n ast.Node) (map[int]bool, bool, error) {
