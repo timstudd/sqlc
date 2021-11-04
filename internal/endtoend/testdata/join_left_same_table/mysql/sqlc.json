@@ -7,6 +7,6 @@
 			"name": "querytest",
 			"schema": "query.sql",
 			"queries": "query.sql"
-	  	}
+		}
 	]
 }
